@@ -1,0 +1,39 @@
+# Created by https://www.gitignore.io/api/go
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+
+
+# Test binary, build with `go test -c`
+*.test
+test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+go.sum
+
+### Go Patch ###
+!vendor/vendor.json
+*.swp
+gitversion
+*.bak
+vendor/
+.idea
+.vscode
+
+### Project ###
+bin/
+dist/
+demo
+storage/
+output/
+docs/
+temp/
+
+test/*.json
